@@ -7,6 +7,7 @@ class Discogs::Artist < Discogs::Resource
   attr_accessor :id,
                 :name,
                 :realname,
+                :resource_url,
                 :images,
                 :urls,
                 :namevariations,
